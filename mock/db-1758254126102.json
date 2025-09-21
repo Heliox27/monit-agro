@@ -1,0 +1,56 @@
+{
+  "farms": [
+    {
+      "id": "farm-a",
+      "name": "Finca A"
+    },
+    {
+      "id": "farm-b",
+      "name": "Finca B"
+    }
+  ],
+  "crops": [
+    {
+      "id": "crop-1",
+      "farmId": "farm-a",
+      "name": "Maíz"
+    },
+    {
+      "id": "crop-2",
+      "farmId": "farm-a",
+      "name": "Frijol"
+    }
+  ],
+  "reports": [
+    {
+      "id": 1,
+      "farmId": "farm-a",
+      "metric": "soil_humidity",
+      "ts": "2025-09-15T08:00:00Z",
+      "value": 42
+    },
+    {
+      "id": 2,
+      "farmId": "farm-a",
+      "metric": "soil_humidity",
+      "ts": "2025-09-15T09:00:00Z",
+      "value": 45
+    },
+    {
+      "id": 3,
+      "farmId": "farm-a",
+      "metric": "temperature",
+      "ts": "2025-09-15T09:00:00Z",
+      "value": 28
+    },
+    {
+      "id": 4,
+      "farmId": "farm-a",
+      "metric": "air_humidity",
+      "ts": "2025-09-15T09:00:00Z",
+      "value": 78
+    }
+  ],
+  "tasks": [],
+  "harvests": []
+}

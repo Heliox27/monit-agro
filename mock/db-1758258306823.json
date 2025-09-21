@@ -1,0 +1,28 @@
+{
+  "farms": [
+    {
+      "id": "farm-a",
+      "name": "Finca A"
+    },
+    {
+      "id": "farm-b",
+      "name": "Finca B"
+    }
+  ],
+  "reports": [
+    {
+      "id": 1,
+      "farmId": "farm-a",
+      "metric": "soil_humidity",
+      "ts": "2025-09-10T10:00:00Z",
+      "value": 42
+    },
+    {
+      "id": 2,
+      "farmId": "farm-a",
+      "metric": "soil_humidity",
+      "ts": "2025-09-10T11:00:00Z",
+      "value": 45
+    }
+  ]
+}

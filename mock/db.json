@@ -1,0 +1,52 @@
+{
+  "farms": [
+    {
+      "id": "farm-a",
+      "name": "Finca A"
+    },
+    {
+      "id": "farm-b",
+      "name": "Finca B"
+    }
+  ],
+  "reports": [
+    {
+      "id": 1,
+      "farmId": "farm-a",
+      "ts": "2025-09-01T08:00:00Z",
+      "soil_moisture": 31.2,
+      "soil_temp": 26.1,
+      "soil_ph": 6.4,
+      "light": 13500,
+      "air_humidity": 62,
+      "air_temp": 28.2,
+      "pump_status": false,
+      "sprinkler_status": false
+    },
+    {
+      "id": 2,
+      "farmId": "farm-a",
+      "ts": "2025-09-01T10:00:00Z",
+      "soil_moisture": 29.7,
+      "soil_temp": 27.0,
+      "soil_ph": 6.3,
+      "light": 17800,
+      "air_humidity": 58,
+      "air_temp": 29.1,
+      "pump_status": false,
+      "sprinkler_status": true
+    }
+  ],
+  "tasks": [
+    {
+      "farmId": "farm-a",
+      "type": "siembra",
+      "cost": 1000,
+      "notes": "Siembra de primer temporada",
+      "ts": "2025-09-20T05:06:03.909Z",
+      "id": 1
+    }
+  ],
+
+  "harvests":[]
+}
