@@ -1,7 +1,7 @@
 // src/api/services.js
 
 // 👇 Nuestro mock corre en este puerto
-export const BASE_URL = 'http://192.168.0.6:4000';
+export const BASE_URL = 'http://10.190.140.15:4000';
 
 
 /**

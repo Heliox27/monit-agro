@@ -11,7 +11,7 @@
   ],
   "reports": [
     {
-      "id": 1,
+      "id": "1",
       "farmId": "farm-a",
       "ts": "2025-09-01T08:00:00Z",
       "soil_moisture": 31.2,
@@ -24,11 +24,11 @@
       "sprinkler_status": false
     },
     {
-      "id": 2,
+      "id": "2",
       "farmId": "farm-a",
       "ts": "2025-09-01T10:00:00Z",
       "soil_moisture": 29.7,
-      "soil_temp": 27.0,
+      "soil_temp": 27,
       "soil_ph": 6.3,
       "light": 17800,
       "air_humidity": 58,
@@ -44,9 +44,16 @@
       "cost": 1000,
       "notes": "Siembra de primer temporada",
       "ts": "2025-09-20T05:06:03.909Z",
-      "id": 1
+      "id": "1"
+    },
+    {
+      "id": "b285",
+      "farmId": "farm-a",
+      "type": "siembra",
+      "cost": 1500,
+      "notes": "Siembra de prueba",
+      "ts": "2025-09-25T19:48:17.342Z"
     }
   ],
-
-  "harvests":[]
+  "harvests": []
 }
