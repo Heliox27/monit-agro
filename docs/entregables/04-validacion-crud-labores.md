@@ -2,9 +2,9 @@
 
 **Proyecto:** Monit-Agro  
 **Módulo:** Registrar Labor (pestaña “Registrar Labor”)  
-**Fecha:** YYYY-MM-DD  
+**Fecha:** 29-Sep-2025
 **Rama:** `dev`  
-**Responsable:** Nombre Apellidos
+**Responsable:** Jairo Flores
 
 ---
 
