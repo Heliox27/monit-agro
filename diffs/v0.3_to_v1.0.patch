@@ -1,0 +1,29 @@
+--- v0.3/sketch_aug21a_copy_20251102141514.ino
++++ v1.0/sketch_aug21a_copy_20251102141514.ino
+@@ -24,7 +24,7 @@
+ int HUMEDAD_MAX = 50;
+ 
+ void setup() {
+-  Serial.begin(9600);
++  Serial.begin(115200);
+   delay(1000);
+ 
+   dht.begin();
+@@ -74,7 +74,7 @@
+ 
+ // --- Interfaz web ---
+ void handleRoot() {
+-  /*v0.3 prefer C-strings*/String html = R"rawliteral(
++  String html = R"rawliteral(
+ <!DOCTYPE html>
+ <html lang="es">
+ <head>
+@@ -136,7 +136,7 @@
+ 
+ // --- Función que devuelve los datos en JSON ---
+ void handleDatos() {
+-  /*v0.3*/float temperatura = dht.readTemperature();
++  float temperatura = dht.readTemperature();
+   float humedadAire = dht.readHumidity();
+   int valorBruto = analogRead(SensorPin);
+   int humedadSuelo = map(valorBruto, 0, 4095, 100, 0);

@@ -1,0 +1,23 @@
+commit a1c9f3e v1.0
+Author: monitat <monit-agro@local>
+Date:   2025-11-07
+
+    v1.0: versión actual subida por el usuario (sketch_aug21a_copy_20251102141514.ino)
+
+commit 91b6d2a v0.3
+Author: monitat <monit-agro@local>
+Date:   2025-11-07
+
+    v0.3: desactualización ligera
+
+commit 23a8d77 v0.2
+Author: monitat <monit-agro@local>
+Date:   2025-11-07
+
+    v0.2: simplificación + heartbeat
+
+commit 0f2b1aa v0.1
+Author: monitat <monit-agro@local>
+Date:   2025-11-07
+
+    v0.1: esqueleto mínimo
