@@ -1,0 +1,12 @@
+--- versions/version_arduino_sensors/v1.0_Previous/Arduino_Previous.ino
++++ versions/version_arduino_sensors/v1.1_FINAL/Arduino.ino
+@@ -1,9 +1,3 @@
+-/*
+-  Monit-Agro — Versión 1.0 (Anterior)
+-  Notas: control básico y registro mínimo por Serial.
+-  Esta iteración prioriza simplicidad para validación en campo.
+-*/
+-
+ #include <DHT.h>  
+ 
+ // ----- Configuración del sensor DHT11 -----
