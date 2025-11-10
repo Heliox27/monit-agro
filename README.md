@@ -3,7 +3,6 @@
 App móvil (Expo/React Native) para monitoreo de parcelas: humedad del suelo, temperatura del suelo, pH, luz, humedad del aire y temperatura del aire.
 Incluye UI base con tabs, branding, un “hero” en Inicio con KPIs, pantalla de Históricos y una API mock con json-server.
 
-⚠️ Nota: Este repo es un prototipo educativo. La API es simulada; no hay backend real.
 
 ────────────────────────────────────────────────────────────────────────
 
